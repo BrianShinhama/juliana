@@ -66,10 +66,9 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Divider */}
+        
         <div className="h-px bg-blue-700 mb-6"></div>
 
-        {/* Bottom Footer */}
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-center md:text-left">
           <p className="text-blue-200 text-sm">
             © {new Date().getFullYear()} Vacinas no Brasil. Todos os direitos reservados.
