@@ -39,7 +39,7 @@ export default function Historia() {
     ];
   
     const getCorClass = (cor: string) => {
-      const cores: any = {
+      const cores: { [key: string]: { border: string; bg: string; text: string; bgLight: string; } } = {
         red: { border: 'border-red-500', bg: 'bg-red-500', text: 'text-red-600', bgLight: 'bg-red-50' },
         blue: { border: 'border-blue-500', bg: 'bg-blue-500', text: 'text-blue-600', bgLight: 'bg-blue-50' },
         green: { border: 'border-green-500', bg: 'bg-green-500', text: 'text-green-600', bgLight: 'bg-green-50' },

@@ -45,7 +45,7 @@ export default function Vacinas() {
   const [selecionada, setSelecionada] = useState<number | null>(null);
 
   const getCorClass = (cor: string, tipo: 'bg' | 'text' | 'border' | 'hover') => {
-    const cores: any = {
+    const cores: { [key: string]: { bg: string; text: string; border: string; hover: string; } } = {
       blue: { bg: 'bg-blue-500', text: 'text-blue-600', border: 'border-blue-500', hover: 'hover:border-blue-600' },
       green: { bg: 'bg-green-500', text: 'text-green-600', border: 'border-green-500', hover: 'hover:border-green-600' },
       purple: { bg: 'bg-purple-500', text: 'text-purple-600', border: 'border-purple-500', hover: 'hover:border-purple-600' },
